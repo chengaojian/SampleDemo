@@ -6,9 +6,9 @@
 //  Copyright © 2016年 三海. All rights reserved.
 //
 
-#import "TableTableViewController.h"
+#import "TableViewController.h"
 
-@interface TableTableViewController ()
+@interface TableViewController ()
 
 @end
 
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor purpleColor];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
