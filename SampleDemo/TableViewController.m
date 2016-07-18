@@ -12,7 +12,7 @@
 
 @end
 
-@implementation TableTableViewController
+@implementation TableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

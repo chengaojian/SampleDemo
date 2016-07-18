@@ -6,16 +6,17 @@
 //  Copyright © 2016年 三海. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BaseViewController.h"
 
-@interface ViewController ()
+@interface BaseViewController ()
 
 @end
 
-@implementation ViewController
+@implementation BaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor redColor];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

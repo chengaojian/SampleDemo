@@ -6,8 +6,8 @@
 //  Copyright © 2016年 三海. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BaseViewController.h"
 
-@interface TextFieldViewController : ViewController
+@interface TextFieldViewController : BaseViewController
 
 @end

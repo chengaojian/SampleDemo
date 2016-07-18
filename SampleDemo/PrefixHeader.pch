@@ -12,4 +12,15 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+// 屏幕宽度
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+// 屏幕高度
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+// 灰色
+#define GRAY_COLOR [UIColor grayColor]
+// 白色
+#define WHITE_COLOR [UIColor whiteColor]
+// 字体大小(默认12)
+#define FONT_DEFAULE [UIFont systemFontOfSize:12]
+
 #endif /* PrefixHeader_pch */

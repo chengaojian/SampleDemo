@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 初始化UIWindow
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    // 创建控制器
+    RootViewController *rootVC = [[RootViewController alloc]init];
+    // 创建导航控制器
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:rootVC];
+    // 设置根控制器
+    self.window.rootViewController = nav;
+    // 设置当前window为主window,并显示
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

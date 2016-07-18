@@ -6,8 +6,8 @@
 //  Copyright © 2016年 三海. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BaseViewController.h"
 
-@interface CollectionViewController : ViewController
+@interface CollectionViewController :BaseViewController
 
 @end
