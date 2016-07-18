@@ -1,5 +1,5 @@
 //
-//  ViewController.m
+//  BaseViewController.m
 //  SampleDemo
 //
 //  Created by 三海 on 16/7/16.
