@@ -80,7 +80,7 @@
 		B5128D9D1D3CC64000A656A3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B5128DA31D3CC64700A656A3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		B5128DA41D3CC64700A656A3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		B5128DA61D3CC78000A656A3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B5128DA61D3CC78000A656A3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		B898006FA6C75F507AB6893F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C8FD66CC5C8B4A4186AF8320 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,7 +145,6 @@
 		B510A3631D3A097F00849492 /* SampleDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B5128DA61D3CC78000A656A3 /* PrefixHeader.pch */,
 				B5128D8E1D3CBC1000A656A3 /* Help */,
 				B5128D941D3CC62C00A656A3 /* Base */,
 				B5128D9B1D3CC64000A656A3 /* Others */,
@@ -268,6 +267,7 @@
 		B5128D9B1D3CC64000A656A3 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				B5128DA61D3CC78000A656A3 /* PrefixHeader.pch */,
 				B5128D9C1D3CC64000A656A3 /* AppDelegate.h */,
 				B5128D9D1D3CC64000A656A3 /* AppDelegate.m */,
 			);
@@ -627,6 +627,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = /Users/sanhai/Documents/SampleDemo/SampleDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = SampleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sanhai.SampleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -640,6 +641,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = /Users/sanhai/Documents/SampleDemo/SampleDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = SampleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sanhai.SampleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
